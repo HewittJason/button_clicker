@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    margin: 0px auto;
+    justify-content:space-evenly;
+    display: flex;
+    background-color: lightgray;
+}
+
+.nav-title {
+    font-family:sans-serif;
+    margin-left: 170px;
+    align-self: center;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    align-self: center;
+}
+
+.btn {
+    margin-left: 130px;
+    color: azure;
+    font-weight: 600;
+    background-color: blue;
+    width: 75px;
+    height: 30px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col1 {
+    flex:1;
+}
+
+.col2 {
+    flex: 2;
+}
+
+.def1, .def2 {
+    margin: 20px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    flex: 1;
+    margin: 30px;
+}
+
+.desc {
+    flex: 2;
+}
+
+h4 {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.plural {
+    margin-top: 10px;
+}
+
+.like {
+    margin-top: 10px;
+    background-color: orange;
+    box-shadow: 3px 5px black;
+    padding: 5px;
+}
+
+.def3 {
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    flex: 1;
+}
+
+.you {
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 150px;
+    background-color: lightgreen;
+    box-shadow: 3px 5px black;
+    padding: 5px;
+}
